@@ -1,4 +1,4 @@
-<form method="get" action="output.html" oninput="result.value = Number(S.value) * Number(b.value) * {return Math.exp(-9 * 9 / 2) / Math.sqrt(2 * Math.PI);};">
+<form method="get" action="output.html" oninput="result.value = Number(S.value) * Number(b.value) * {return Math.exp(Number(S.value) * Number(S.value) / 2) / Math.sqrt(Number(S.value) * Math.PI);};">
 
 <p><input type="number" name="S" value="0"> * <input type="number" name="b"</p>
 
