@@ -1,4 +1,4 @@
-<form method="get" action="output.html" oninput="result.value = Math.log(S/K); * Number(K.value);">
+<form method="get" action="output.html" oninput="result.value = Math.log(10); * Number(K.value);">
 
 <p><input type="number" name="S" value="0"> * <input type="number" name="K"</p>
 
